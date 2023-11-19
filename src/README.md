@@ -10,16 +10,15 @@ Main.java: Contains the main method to start the game.
 
 **How to Play**
 Two players are created with initial attributes.
-Entering the players health,strength, and attack vaues by user interface.
+Entering the players health,strength, and attack values by user interface.
 Players take turns attacking each other until one loses all their health.
 The game announces the winner.
 
-
-ToExecute
+**ToExecute**
 javac Main.java
 java Main
 
-Input Format:
+**Input Format**:
 Enter Player A Health
 50
 Enter Player A Strength
@@ -33,7 +32,7 @@ Enter Player B Strength
 Enter Player B Attack
 5
 
-Output Format:
+**Output Format**:
 
 PlayerB health reduced by 40
 PlayerA health reduced by 0
@@ -49,8 +48,8 @@ PlayerB health reduced by 30
 Player A wins!
 
 
-
-To enable assertions during runtime, you need to run the Java Virtual Machine (JVM) with the -ea.
+**Unit Tests**
+To enable assertions during runtime, you need to set JVM configuration -ea while running.
 java -ea (testclassfilename.java).
 
 
